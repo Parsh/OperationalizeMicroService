@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker container run ml-microservice
+docker container run -p 8000:80 ml-microservice
