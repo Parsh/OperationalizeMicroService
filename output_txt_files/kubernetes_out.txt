@@ -1,1 +1,16 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Error from server (AlreadyExists): deployments.apps "ml-microservice-kube" already exists
+NAMESPACE     NAME                                   READY   STATUS    RESTARTS   AGE
+default       ml-microservice-7c5658796c-8b4s8       1/1     Running   0          3m44s
+default       ml-microservice-kube-5464d764c-58szw   1/1     Running   0          2m21s
+kube-system   coredns-66bff467f8-2nz7j               1/1     Running   0          13m
+kube-system   coredns-66bff467f8-62nmt               1/1     Running   0          13m
+kube-system   etcd-minikube                          1/1     Running   0          13m
+kube-system   kube-apiserver-minikube                1/1     Running   0          13m
+kube-system   kube-controller-manager-minikube       1/1     Running   0          13m
+kube-system   kube-proxy-nhxd2                       1/1     Running   0          13m
+kube-system   kube-scheduler-minikube                1/1     Running   0          13m
+kube-system   storage-provisioner                    1/1     Running   0          13m
+Error from server (AlreadyExists): services "ml-microservice-kube" already exists
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
